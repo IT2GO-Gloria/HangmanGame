@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Simple Hangman Javascript
+    </title>
+    <link href="hangman.css" rel="stylesheet">
+    <script src="hangman.js"></script>
+  </head>
+  <body>
+    <div id="hangman-wrap">
+      <!-- (A) LEFT : HANGMAN IMAGE -->
+      <div id="hangman-left">
+        <img id="hangman-img" src="strike-0.png"/>
+      </div>
+
+      <!-- (B) RIGHT : GAME INTERFACE -->
+      <div id="hangman-right">
+        <!-- (B1) CURRENT WORD(S) -->
+        <div id="hangman-words"></div>
+
+        <!-- (B2) AVAILABLE CHARACTERS -->
+        <div id="hangman-char"></div>
+
+        <!-- (B3) RESET & LIVES -->
+        <div id="hangman-bottom">
+          <input type="button" value="Reset" id="hangman-reset" disabled/>
+          <div>
+            Lives Left: <span id="hangman-lives"></span> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

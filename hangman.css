@@ -1,0 +1,69 @@
+
+/* (A) GAME WRAPPER */
+#hangman-wrap {
+  display: flex;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+/* (B) LEFT - HANGMAN IMAGE */
+#hangman-left {
+  width: 30%;
+  padding: 10px 0;
+  text-align: center;
+  background: skyblue;
+}
+#hangman-img {
+  margin-top: 30px;
+  margin-left: 10px;
+  max-width: 80%;
+  transition: all 0.3s;
+  opacity: 0;
+}
+
+/* (C) RIGHT - GAME INTERFACE */
+/* (C1) CONTAINER + SHARED */
+#hangman-right {
+  padding: 10px;
+  width: 70%;
+  background: skyblue;
+}
+#hangman-char input[type=button], #hangman-reset {
+  font-size: 1.3em;
+  padding: 5px;
+}
+/* (C2) WORDS */
+#hangman-words {
+  margin-bottom: 10px;
+}
+#hangman-words span {
+  display: inline-block;
+  margin: 5px;
+  font-size: 2em;
+}
+/* (C3) AVAILABLE CHARACTERS */
+#hangman-char {
+  display: flex;
+  flex-wrap: wrap;
+}
+#hangman-char input[type=button] {
+  margin: 2px;
+}
+#hangman-char input[type=button]:disabled {
+  background: lightslategray;
+  color: coral;
+}
+/* (C4) RESET + LIVES */
+#hangman-bottom {
+  margin-top: 10px;
+}
+#hangman-reset {
+  margin-bottom: 5px;
+}
+
+/* DOES NOT MATTER */
+html, body {
+  font-family: arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
