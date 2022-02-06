@@ -8,7 +8,7 @@
 * images shown goes along with how many right/wrong guesses, and
 * a text box appears at the end of the game, showing user if they won or lost.
 
-# Future phases should:
+### Future phases should:
 * Add a function to select a language,
 * Add words in different languages,
 * At language selection - make all the text change to selected language,
