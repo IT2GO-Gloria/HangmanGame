@@ -1,5 +1,7 @@
 # Hangman Game
 
+### Technologies Used: HTML, CSS, JavaScript, Web Browser
+
 ### This game:
 * shows how many letters are in the word,
 * shows what letters have and have not been used,
